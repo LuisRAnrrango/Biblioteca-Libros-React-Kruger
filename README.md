@@ -7,7 +7,7 @@ In this repository you can find the code of a web application which was develope
 
 ## Available Scripts
 
-<img src='public\images\Mockulink'>
+<img src='public\images\Mockup-Biblioteca.png'>
 
 ## Built With
 
@@ -19,7 +19,7 @@ In this repository you can find the code of a web application which was develope
 
 ## Getting Started
 
-**In this repository I am going to create a page containing the development of a page that works as a Weather for Kuger Star.**
+**In this repository I am going to create a page containing the development of a page that create and view Library for Kuger Star.**
 
 ## Run it 🔨
 
@@ -31,7 +31,7 @@ Use the following steps to run this Portfolio locally:
 
 - get in the directory you want this folder to appear
 
-- put: git clone `https://github.com/Link Project`
+- put: git clone `https://github.com/LuisRAnrrango/Biblioteca-Libros-React-Kruger`
 
 - open the folder with a new terminal (This can be done with a code editor or directly in the terminal.)
 - put "npm start"
