@@ -40,12 +40,12 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/view"
+                to="/create"
                 id="optionm"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
-                Ver
+            Create
               </NavLink>
             </li>
             <li className="nav-item">
