@@ -15,7 +15,7 @@ export default function Book({ item }) {
   return (
     <div style={bookContainerStyle}>
       <NavLink to={`/view/${item.id}`} style={bookInfoStyle}>
-        <img src={item.cover} width="200" />
+        <img src={item.cover} width="200" alt="" />
         <div>{item.title}</div>
       </NavLink>
     </div>

@@ -13,7 +13,7 @@ export default function Index() {
 
   return (
     <Layout>
-      <h2>Libros Gratis</h2>
+      <h2 className="h2">Libros Gratis</h2>
       <div style={booksContainer}>
         {store.items.map((item) => (
           <Book key={item.id} item={item} />

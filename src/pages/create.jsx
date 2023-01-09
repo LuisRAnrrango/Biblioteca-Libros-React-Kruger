@@ -50,7 +50,9 @@ export default function Create() {
         break;
       case "review":
         setReview(e.target.value);
+
         break;
+      default:
     }
   }
 
@@ -109,7 +111,7 @@ export default function Create() {
         <div style={inputStyles.container}>
           <div style={inputStyles.title}>Cover</div>
           <input type="file" name="cover" onChange={handleOnChangeFile} />
-          <div>{!!cover ? <img src={cover} width="200" /> : ""}</div>
+          <div>{!!cover ? <img src={cover} width="200" alt="" /> : ""}</div>
         </div>
 
         <div style={inputStyles.container}>
@@ -159,7 +161,6 @@ export default function Create() {
             fontSize: "18px",
           }}
         />
-      
       </form>
     </Layout>
   );

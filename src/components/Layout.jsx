@@ -1,6 +1,3 @@
-import { Navbar } from "./Navbar";
-
-
 export default function Layout({ children }) {
   const containerStyle = {
     width: "90%",
@@ -8,7 +5,6 @@ export default function Layout({ children }) {
   };
   return (
     <div>
-  
       <div style={containerStyle}>{children}</div>
     </div>
   );

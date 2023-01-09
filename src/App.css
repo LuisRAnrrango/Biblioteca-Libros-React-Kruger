@@ -2,9 +2,19 @@
   color: aliceblue;
 }
 .navbar {
-  background: rgb(45,40,40);
-  background: linear-gradient(90deg, rgba(45,40,40,1) 0%, rgba(38,38,48,1) 2%, rgba(252,176,69,1) 72%, rgba(253,131,57,1) 87%, rgba(253,98,48,1) 100%);
+  background: rgb(45, 40, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 40, 40, 1) 0%,
+    rgba(38, 38, 48, 1) 2%,
+    rgba(252, 176, 69, 1) 72%,
+    rgba(253, 131, 57, 1) 87%,
+    rgba(253, 98, 48, 1) 100%
+  );
 }
 .app-logo {
   height: 80px;
+}
+.h2 {
+  text-align: center;
 }
