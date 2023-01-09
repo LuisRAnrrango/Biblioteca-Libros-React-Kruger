@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 import { useAppContext } from "../store/store";
 
@@ -12,7 +12,7 @@ export default function View() {
   useEffect(() => {
     const book = store.getItem(params.bookId);
     setItem(book);
-  },[]);
+  }, []);
 
   return (
     <Layout>
