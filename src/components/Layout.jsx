@@ -1,4 +1,5 @@
-import NavBar from "./navbar";
+import { Navbar } from "./Navbar";
+
 
 export default function Layout({ children }) {
   const containerStyle = {
@@ -7,7 +8,7 @@ export default function Layout({ children }) {
   };
   return (
     <div>
-      <NavBar />
+  
       <div style={containerStyle}>{children}</div>
     </div>
   );

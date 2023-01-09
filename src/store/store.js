@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 const AppContext = createContext({
   items: [],
@@ -9,7 +9,7 @@ const AppContext = createContext({
 
 export default function Store({ children }) {
   const [items, setItems] = useState([
-    /* {
+   {
       id: "2ad6b5e2-9c2b-4959-b740-9335c85eed74",
       title: "Harry Potter y el caliz de fuego",
       author: "J.K. Rowling",
@@ -53,7 +53,7 @@ export default function Store({ children }) {
       intro: "",
       completed: false,
       review: "",
-    }, */
+    }, 
   ]);
 
   function createItem(item) {

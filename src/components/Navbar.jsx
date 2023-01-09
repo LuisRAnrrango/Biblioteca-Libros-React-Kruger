@@ -45,17 +45,17 @@ export const Navbar = () => {
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
-            Create
+                Create
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to="/about"
+                to="/view"
                 id="optionm"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
               >
-                About
+                View
               </NavLink>
             </li>
             <li className="nav-item">

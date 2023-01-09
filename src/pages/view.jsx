@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../components/layout";
+
 import { useAppContext } from "../store/store";
 
 export default function View() {
