@@ -40,7 +40,7 @@ Use the following steps to run this Portfolio locally:
 
 For a live demo please click on the following link:
 
-https://63bb285134bf0957f1 linkdeploy
+https://biblioteca-libros-react-kruger-rg71.vercel.app/
 
 ## Author
 
