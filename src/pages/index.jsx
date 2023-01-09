@@ -1,5 +1,5 @@
 import Book from "../components/Book";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { useAppContext } from "../store/store";
 
 export default function Index() {
